@@ -30,7 +30,7 @@ namespace Classrenderer.Droid.Renderers
 
             if (Control != null)
             {
-                //Control.SetBackground(null);
+
                 Control.SetBackgroundColor(global::Android.Graphics.Color.LightGreen);
             }
         }

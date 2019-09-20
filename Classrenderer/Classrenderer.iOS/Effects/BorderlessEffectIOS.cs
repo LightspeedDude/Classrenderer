@@ -19,8 +19,6 @@ namespace Classrenderer.iOS.Effects
         UIColor backgroundColor;
         protected override void OnAttached()
         {
-            //var control = Control as UITextField;
-            //control.BorderStyle = UITextBorderStyle.None;
 
             try
             {

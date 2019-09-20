@@ -25,7 +25,7 @@ namespace Classrenderer.Droid.Effects
         Android.Graphics.Color backgroundColor;
         protected override void OnAttached()
         {
-            //Control.SetBackground(null);
+            
 
             try
             {

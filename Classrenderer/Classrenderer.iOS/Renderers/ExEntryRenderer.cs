@@ -24,7 +24,6 @@ namespace Classrenderer.iOS.Renderers
             base.OnElementChanged(e);
             if (Control != null)
             {
-                //Control.BorderStyle = UIKit.UITextBorderStyle.None;
                 Control.BackgroundColor = UIColor.FromRGB(204, 153, 255);
                 Control.BorderStyle = UITextBorderStyle.Line;
             }
