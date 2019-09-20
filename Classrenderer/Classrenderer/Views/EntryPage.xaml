@@ -4,13 +4,21 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:controls="clr-namespace:Classrenderer.Controls"
+             xmlns:local="clr-namespace:Classrenderer.Effects"
              mc:Ignorable="d"
              x:Class="Classrenderer.Views.EntryPage"
              BackgroundColor="Aqua">
     <ContentPage.Content>
         <StackLayout>
-            <controls:ExEntry VerticalOptions="Center" HorizontalOptions="FillAndExpand" Placeholder="Custom" />
+            <controls:ExEntry VerticalOptions="Center" HorizontalOptions="FillAndExpand" Placeholder="Control" />
             <Entry HorizontalOptions="FillAndExpand" Placeholder="Original" />
+
+            <Entry HorizontalOptions="FillAndExpand" Placeholder="Effects">
+                <Entry.Effects>
+                    <local:BorderlessEffect/>
+                </Entry.Effects>
+            </Entry>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
